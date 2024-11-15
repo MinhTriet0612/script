@@ -3,7 +3,10 @@
 npm install
 touch .env 
 ```
-* Create variable ANYA_URL and assign the url link to
+*Open .env file and create variable ANYA_URL and assign the url link to
+```
+ANYA = <weburl"
+```
 
 ```
 npm start
