@@ -5,7 +5,7 @@ touch .env
 ```
 *Open .env file and create variable ANYA_URL and assign the url link to
 ```
-ANYA = <weburl"
+ANYA = <web_url>"
 ```
 
 ```
